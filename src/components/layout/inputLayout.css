@@ -1,0 +1,10 @@
+.inputContainer {
+  text-align: center;
+  padding: 2rem;
+}
+.inputContainer_inputfield {
+  padding: 1.5rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  width: 90%;
+}

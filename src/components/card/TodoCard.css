@@ -1,0 +1,42 @@
+.todoCard {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  position: relative;
+}
+
+.todoCardComplete {
+  filter: opacity(0.5);
+}
+.todoCard input {
+  border: none;
+}
+.todoCard input:focus {
+  outline: none;
+}
+.todoCard__buttons button {
+  background-color: orange;
+  border: 1px solid transparent;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.todoCard__buttons button:nth-of-type(1) {
+  background-color: orange;
+}
+.todoCard__buttons button:nth-last-of-type(2) {
+  background-color: red;
+}
+.todoCard__buttons button:nth-last-child(3) {
+  background-color: purple;
+}
+.todoCard__buttons button:hover {
+  cursor: pointer;
+  filter: opacity(0.5);
+}
